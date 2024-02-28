@@ -189,6 +189,9 @@
   align-items: center;
   flex-direction: row;
 }
+.error-nav121 {
+  text-decoration: none;
+}
 .error-nav221 {
   margin-left: var(--dl-space-space-unit);
 }

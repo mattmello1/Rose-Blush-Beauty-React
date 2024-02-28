@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -96,7 +97,9 @@ const Error = (props) => {
           <div className="error-container1">
             <span className="logo">Rose &amp; blush beauty</span>
             <nav className="error-nav1">
-              <span className="bodySmall">Home</span>
+              <Link to="/" className="error-nav121 bodySmall">
+                Home
+              </Link>
               <span className="error-nav221 bodySmall">Services</span>
               <span className="error-nav321 bodySmall">Portfolio</span>
               <span className="error-nav421 bodySmall">Book Now</span>

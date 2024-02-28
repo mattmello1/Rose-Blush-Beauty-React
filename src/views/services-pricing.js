@@ -39,15 +39,10 @@ const ServicesPricing = (props) => {
               >
                 Services
               </Link>
-              <Link
-                to="/portfolio"
-                className="services-pricing-nav32 bodySmall"
-              >
+              <span className="services-pricing-nav32 bodySmall">
                 Portfolio
-              </Link>
-              <Link to="/book-now" className="services-pricing-nav42 bodySmall">
-                Book Now
-              </Link>
+              </span>
+              <span className="services-pricing-nav42 bodySmall">Book Now</span>
               <Link to="/contact" className="services-pricing-nav52 bodySmall">
                 Contact
               </Link>
